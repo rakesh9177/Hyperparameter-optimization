@@ -45,7 +45,7 @@ if __name__ == '__main__':
         estimator=classifer,
         param_distributions=param_grid,
         scoring="accuracy",
-        n_iter=10,
+        n_iter=15,
         verbose=10,
         n_jobs=-1,
         cv=5
